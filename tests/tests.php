@@ -117,7 +117,7 @@ function testDbFetch() {
 
 // Тест 9: Проверка рендеринга страницы
 function testPageRender() {
-    $template = __DIR__ . '/../site/templates/index.tpl';
+    $template = __DIR__ . '/../templates/index.tpl';
     $page = new Page($template);
     $data = [
         'title' => 'Test Title',
